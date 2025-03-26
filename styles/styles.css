@@ -3,31 +3,34 @@ html{font-family: "Quicksand", sans-serif;
     font-style:normal;
   }
 
-.table{
+tr{
+    border: solid 1px rgb(138, 138, 138);
+}
+
+  .table{
+    border: solid black 1px;
     border-collapse: collapse;
 }
 
 .linclass{
-    color: rgba(0, 0, 0, 0.373);
+    border: solid 1px;
+    color: rgba(0, 0, 0, 0.26);
     font-size: small;
 }
 
 th{
-    border: solid 1px;
     text-align: left;
     padding: 10px;
+    border-right: solid black 1px;
 }
 
 td{
-    border: solid 1px;
     text-align: center;
     padding: 10px;
 }
 
 .tds1{
-    background-color: rgba(175, 167, 167, 0.085);
-    border-left: none;
-    border-right: none;
+    background-color: rgba(175, 167, 167, 0.188);
 }
 
 .tds{
@@ -44,11 +47,7 @@ td{
 }
 
 .s-n{
-    color:green
-}
-
-.d{
-    color:red;
+    color: rgb(168, 165, 165);
 }
 
 #classif{
